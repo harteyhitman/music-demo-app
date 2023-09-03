@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+.container {
+  @apply w-11/12 m-auto my-4;
+}
+
+img{
+  display: block;
+}
+
