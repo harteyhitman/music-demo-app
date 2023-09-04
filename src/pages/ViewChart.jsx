@@ -57,12 +57,11 @@ function ViewChart() {
                 {
                   !likes ? <Heart/> :  <AiFillHeart fill="red"/>
                 }
-               
+            
               </li>
             </div>
           </div>
         </div>
-
         <div className="flex flex-col gap-3">
           {viewChar.map((chart) => (
             <ChartList key={chart.id} chart={chart} />

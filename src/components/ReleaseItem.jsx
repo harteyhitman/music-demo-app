@@ -14,7 +14,7 @@ function ReleaseItem({ rel }) {
       <div className="relative h-full rounded-xl py-3 px-2 bg-dark">
         <div className="w-40 h-40">
           <img
-            className="block rounded pointer-events-none cursor-pointer"
+            className="block rounded pointer-events-none cursor-pointer pb-20"
             src={rel.img}
             alt='new release music'
           />
